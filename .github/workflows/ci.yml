@@ -1,0 +1,13 @@
+name: Say Hello
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  wave:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Say hello
+      run: echo "👋 Hi from your DevSecOps Robot!"
